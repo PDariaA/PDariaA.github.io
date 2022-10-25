@@ -9,7 +9,7 @@ let phrases = [
   { text: 'попасть в поток грустных песен и вспомнить все ошибки молодости', image: 'https://code.s3.yandex.net/web-code/procrastinate/8.png' },
   { text: 'посмотреть трейлер сериала и заодно первый сезон', image: 'https://code.s3.yandex.net/web-code/procrastinate/9.png' },
   { text: 'проверить непрочитанное в Telegram-каналах', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' },
- {text: 'пойти спать', image: 'https://code.s3.yandex.net/web-code/procrastinate/11.png' },
+{text: 'пойти спать', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.freepik.com%2Fvectors%2F%25D1%2581%25D0%25BE%25D0%25BD&psig=AOvVaw2AatAroQ8DHdT-Lw9Gsj-v&ust=1666775131671000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOD50LOD-_oCFQAAAAAdAAAAABAD'  },
 ];
 
 function getRandomElement(arr) {
