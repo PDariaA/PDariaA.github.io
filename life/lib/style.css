@@ -1,0 +1,85 @@
+#c1{
+  height: 700px;
+  width: 700px;
+  border: 3px solid #f89696;
+  background-image: url(https://avatanplus.com/files/resources/mid/5b694c0c9547f16513511143.jpg);
+	background-size: 100% 100%;
+}
+
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #f3949491;
+  display: table;
+  margin: 20px auto;
+  color: rgb(145, 25, 25);
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+
+body{
+  background: #eb1313;
+  background-image: -webkit-radial-gradient(cover, rgb(228, 24, 24),#f89696	);
+  background-image: -moz-radial-gradient(cover, #e91313, #e91212);
+  background-image: -o-radial-gradient(cover, #f6f7f4, #a4a8ae);
+  background-image: radial-gradient(cover, #ffffff, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(145, 18, 18);
+	border: 1px solid rgb(8, 1, 1);
+	box-shadow: 0 1px 0 rgb(214, 16, 16) inset, 0 1px 3px rgb(0, 0, 0);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: none; 
+	color:rgb(0, 0, 0);
+	text-shadow: 0 1px rgb(0, 0, 0);
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:rgb(246, 250, 248);
+  	border: 1px solid rgb(235, 27, 27);
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #f31010;
+} 
+
